@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62591D7B1B012E1800DAFF7E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62591D7A1B012E1800DAFF7E /* icon.png */; };
 		626F5DDC1B011155006C0116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626F5DDB1B011155006C0116 /* main.m */; };
 		626F5DDF1B011155006C0116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626F5DDE1B011155006C0116 /* AppDelegate.m */; };
 		626F5DE21B011155006C0116 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626F5DE11B011155006C0116 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62591D7A1B012E1800DAFF7E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Downloads/icon.png; sourceTree = "<group>"; };
 		626F5DD61B011155006C0116 /* Translate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626F5DDA1B011155006C0116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626F5DDB1B011155006C0116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		626F5DCD1B011155006C0116 = {
 			isa = PBXGroup;
 			children = (
+				62591D7A1B012E1800DAFF7E /* icon.png */,
 				626F5DD81B011155006C0116 /* Translate */,
 				626F5DF21B011155006C0116 /* TranslateTests */,
 				626F5DD71B011155006C0116 /* Products */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62591D7B1B012E1800DAFF7E /* icon.png in Resources */,
 				626F5DE51B011155006C0116 /* Main.storyboard in Resources */,
 				626F5DEA1B011155006C0116 /* LaunchScreen.xib in Resources */,
 				626F5DE71B011155006C0116 /* Images.xcassets in Resources */,
@@ -345,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMPRESS_PNG_FILES = NO;
 				INFOPLIST_FILE = Translate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMPRESS_PNG_FILES = NO;
 				INFOPLIST_FILE = Translate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +420,7 @@
 				626F5DFB1B011155006C0116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		626F5DFC1B011155006C0116 /* Build configuration list for PBXNativeTarget "TranslateTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				626F5DFE1B011155006C0116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
